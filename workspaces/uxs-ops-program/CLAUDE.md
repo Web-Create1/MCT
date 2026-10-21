@@ -13,6 +13,7 @@ target repos. Each build session reads one stage contract and the files it names
 uxs-ops-program/
 ├── CLAUDE.md                 (you are here)
 ├── CONTEXT.md                (start here for task routing)
+├── runs.md                   (live register of build sessions)
 ├── setup/questionnaire.md    (already answered, kept for the `setup` trigger)
 ├── references/
 │   ├── program-prd.md        (problem, goals, non-goals, personas, metrics, phasing)
