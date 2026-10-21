@@ -41,7 +41,9 @@ Time to detect (TTD) = `anomaly.t_s` minus the fault's onset.
    anomaly's limit (for example `xtrack_m` above the threshold, or `link_ok` false).
 3. Show both `seq` numbers and the subtraction: `TTD = 245.0 s - 240.0 s = 5.0 s (seq 12, 13)`.
 4. If no out-of-limit `tlm` line exists before the anomaly, TTD is `not measurable`, with the
-   reason. Telemetry sampled sparsely makes TTD an upper bound on the true onset; say so.
+   reason. The first out-of-limit sample is the latest the fault can have started, so with
+   sparse telemetry TTD is a lower bound. Name the last in-limit `seq`: the true onset lies
+   between the two samples. If that gap is wider than the criterion, TTD cannot pass it.
 
 ## Nulls
 
