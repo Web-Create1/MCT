@@ -29,6 +29,20 @@ uxs-mission-docs/
 | `setup` | Run `setup/questionnaire.md` |
 | `status` | Scan `stages/*/output/` and render the pipeline, as `_core/CONVENTIONS.md` describes |
 
+### `status` example
+
+With stages 01 to 03 run for a mission slugged `pier-check-sim`:
+
+```
+Pipeline Status: uxs-mission-docs
+
+  [01-intake] --> [02-conops] --> [03-test-plan] --> [04-brief-and-preflight] --> [05-debrief] --> [06-training-qrc]
+   COMPLETE        COMPLETE        COMPLETE           PENDING                      PENDING          PENDING
+   (pier-check-sim-mission-request.md)
+                   (pier-check-sim-conops.md)
+                                   (pier-check-sim-test-plan.md)
+```
+
 ## Routing
 
 | Task | Go To |
