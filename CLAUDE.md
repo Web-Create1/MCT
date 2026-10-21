@@ -16,7 +16,9 @@ model-workspace-protocol/
 └── workspaces/
     ├── script-to-animation/           (content idea -> animated video)
     ├── course-deck-production/        (unstructured material -> course PowerPoints)
-    └── workspace-builder/             (builds new MWP workspaces)
+    ├── workspace-builder/             (builds new MWP workspaces)
+    ├── uxs-ops-program/               (four-repo uncrewed systems ops upgrade: PRD and stage contracts)
+    └── uxs-mission-docs/              (mission request -> CONOPS, test plan, brief, debrief, QRCs)
 ```
 
 ## Routing
@@ -26,6 +28,8 @@ model-workspace-protocol/
 | Create content with script-to-animation | `workspaces/script-to-animation/CLAUDE.md` |
 | Build course slide decks from source material | `workspaces/course-deck-production/CLAUDE.md` |
 | Build a new workspace for any domain | `workspaces/workspace-builder/CLAUDE.md` |
+| Run or check the UxS ops portfolio program | `workspaces/uxs-ops-program/CLAUDE.md` |
+| Write UxS mission documents, CONOPS to debrief | `workspaces/uxs-mission-docs/CLAUDE.md` |
 | Read the full MWP specification | `_core/CONVENTIONS.md` |
 | Understand the placeholder system | `_core/placeholder-syntax.md` |
 | Use a template for a new workspace | `_core/templates/` |

@@ -170,6 +170,7 @@ Each stage produces an output file. You can edit that file before moving on. The
 | [script-to-animation](workspaces/script-to-animation/) | Content idea through script writing, animation spec, and Remotion code | 3 |
 | [course-deck-production](workspaces/course-deck-production/) | Unstructured material (PDFs, papers, notes) into polished PowerPoint slide decks | 5 |
 | [workspace-builder](workspaces/workspace-builder/) | Build a new ICM workspace for any domain | 5 |
+| [uxs-mission-docs](workspaces/uxs-mission-docs/) | A mission request for an uncrewed system into a CONOPS, test plan, brief, debrief from the ops log, and training cards, with a simulated worked example | 6 |
 
 ## Build Your Own Workspace
 
