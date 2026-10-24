@@ -2,6 +2,9 @@
 **/stages/*/output/*
 !**/stages/*/output/.gitkeep
 
+# The ops program's stage reports are the cross-session handoff, so they are kept
+!workspaces/uxs-ops-program/stages/*/output/*
+
 # Workspace-builder stage outputs (intermediate build artifacts)
 workspaces/workspace-builder/stages/*/output/*
 !workspaces/workspace-builder/stages/*/output/.gitkeep
